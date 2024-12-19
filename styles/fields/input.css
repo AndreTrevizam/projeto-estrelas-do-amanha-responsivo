@@ -4,7 +4,6 @@ input, textarea, select{
   border-radius: .5rem;
   border: 1px solid var(--stroke-default);
   padding: .75rem 1rem;
-  margin-bottom: 1.25rem;
 }
 
 input:focus,
@@ -16,7 +15,6 @@ select:focus {
 }
 
 
-
 select{
   background: url(../../assets/icons/arrow-down-01.svg) no-repeat calc(100% - 1rem);
 }
@@ -26,6 +24,33 @@ input {
   &[disabled] {
     background-color: var(--surface-disabled);
   }
+
+  &:invalid {
+    border: .125rem solid var(--semantic-error);
+  }
+
+  &[required] + .error{
+    display: flex;
+    align-items: center;
+    gap: .25rem;
+    font: var(--text-xs);
+    color: var(--semantic-error);
+    margin-top: .25rem;
+  }
+
+  &:not(:focus):valid + .error{
+    display: none;
+  }
+}
+
+.input-wrapper:has(small) {
+  & input {
+    margin-bottom: .25rem;
+  }
+  & small {
+    color: #78716C;
+  }
+  margin-bottom: 1.25rem;
 }
 
 input[type="date"]::-webkit-calendar-picker-indicator {

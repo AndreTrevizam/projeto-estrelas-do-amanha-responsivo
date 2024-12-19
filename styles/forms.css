@@ -17,3 +17,7 @@ label {
   color: var(--text-secondary);
   margin-bottom: .875rem;
 }
+
+div {
+  margin-bottom: 1.25rem;
+}
