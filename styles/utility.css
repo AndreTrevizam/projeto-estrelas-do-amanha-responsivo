@@ -51,3 +51,9 @@
 .text-xl {
   font-size: var(--fs-xl);
 }
+
+@media (width >= 50em) {
+  .container {
+    max-width: 50em;
+  }
+}
