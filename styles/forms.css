@@ -1,0 +1,19 @@
+@import url(fields/index.css);
+
+fieldset {
+  margin-top: 3rem;
+  border: none;
+  display: grid;
+}
+
+legend {
+  color: var(--text-primary);
+  font-weight: 600;
+  margin-bottom: 1.25rem;
+}
+
+label {
+  font-size: var(--fs-xs);
+  color: var(--text-secondary);
+  margin-bottom: .875rem;
+}

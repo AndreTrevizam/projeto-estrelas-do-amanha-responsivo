@@ -32,6 +32,10 @@
   gap: .5rem;
 }
 
+.text-xs {
+  font-size: var(--fs-xs);
+}
+
 .text-sm {
   font-size: var(--fs-sm);
 }
