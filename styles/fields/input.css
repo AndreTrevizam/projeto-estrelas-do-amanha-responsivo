@@ -22,6 +22,12 @@ select{
 }
 
 
+input {
+  &[disabled] {
+    background-color: var(--surface-disabled);
+  }
+}
+
 input[type="date"]::-webkit-calendar-picker-indicator {
   display: none; /* Oculta o ícone no Chrome/Safari */
 }
