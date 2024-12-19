@@ -1,0 +1,11 @@
+#mobile-header {
+  background-color: var(--surface-secondary);
+
+  & .logo {
+    justify-self: center;
+  }
+
+  & header > img {
+    width: 312px;
+  }
+}
