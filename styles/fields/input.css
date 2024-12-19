@@ -51,12 +51,3 @@ input {
     color: #78716C;
   }
 }
-
-input[type="date"]::-webkit-calendar-picker-indicator {
-  display: none; /* Oculta o ícone no Chrome/Safari */
-}
-
-input[type="date"] {
-  position: relative;
-  z-index: 1; /* Evita bugs de acessibilidade */
-}
