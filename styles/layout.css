@@ -1,11 +1,14 @@
-#mobile-header {
+aside {
   background-color: var(--surface-secondary);
 
-  & .logo {
-    justify-self: center;
-  }
+  & header {
 
-  & header > img {
-    width: 312px;
+    & #logo {
+      justify-self: center;
+    }
+
+    &   #illustration {
+      width: 312px;
+    }
   }
 }

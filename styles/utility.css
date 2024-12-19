@@ -4,48 +4,26 @@
   margin-inline: auto;
 }
 
-.flex {
-  display: flex;
+.grid {
+  display: grid;
 }
 
 .items-center {
   justify-content: center;
 }
 
-.gap-1\.5 {
-  gap: 1.5rem;
+.flex {
+  display: flex;
 }
 
-.grid {
-  display: grid;
+.py-base {
+  padding-block: 1.25rem;
 }
 
-.gap-1 {
-  gap: 1rem;
+.px-base {
+  padding-inline: 1.25rem;
 }
 
-.pd-base {
-  padding: 1.5rem;
-}
-
-.mobile-only {
-  display: initial;
-}
-
-@media (width >= 80em) {
-  .container {
-    --max-width: 80rem;
-  }
-
-  .mobile-only {
-    display: none;
-  }
-
-  .desktop-only {
-    display: initial;
-  }
-
-  .pd-base {
-    padding: 4rem;
-  }
+.gap-875 {
+  gap: .875rem;
 }
