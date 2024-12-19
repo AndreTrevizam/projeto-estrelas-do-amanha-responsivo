@@ -1,9 +1,12 @@
 @import url(fields/index.css);
 
 fieldset {
-  margin-top: 3rem;
   border: none;
   display: grid;
+}
+
+fieldset + fieldset {
+  margin-top: 3rem;
 }
 
 legend {
@@ -16,8 +19,4 @@ label {
   font-size: var(--fs-xs);
   color: var(--text-secondary);
   margin-bottom: .875rem;
-}
-
-div {
-  margin-bottom: 1.25rem;
 }
