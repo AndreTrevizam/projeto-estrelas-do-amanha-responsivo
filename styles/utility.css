@@ -27,3 +27,23 @@
 .gap-875 {
   gap: .875rem;
 }
+
+.gap-\.5 {
+  gap: .5rem;
+}
+
+.text-sm {
+  font-size: var(--fs-sm);
+}
+
+.text-base {
+  font-size: var(--fs-base);
+}
+
+.text-lg {
+  font-size: var(--fs-lg);
+}
+
+.text-xl {
+  font-size: var(--fs-xl);
+}

@@ -1,0 +1,21 @@
+#info {
+  & .back {
+    margin-bottom: 1.5rem;
+    
+    & span {
+      color: var(--text-secondary);
+    }
+  }
+
+  & .title {
+    & h1 {
+      font-weight: 800;
+      color: var(--text-primary);
+      margin-bottom: .5rem;
+    }
+
+    & p {
+      color: var(--text-secondary);
+    }
+  }
+}
